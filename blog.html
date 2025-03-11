@@ -17,8 +17,8 @@
             <h1 class="text-3xl">Dev <span class="text-black font-extrabold ">Board</span></h1>
           </div>
 
-          <div>
-            <button class="btn bg-[#3752FD] p-3 text-white rounded-lg" type="button">Back to Desk</button>
+          <div >
+            <button class="btn bg-[#3752FD] p-3 text-white rounded-lg border-2" id="back-btn" >Back to Desk</button>
           </div>
           
           
@@ -26,6 +26,42 @@
     </header>
     <main>
         <h2 class="text-center font-bold text-3xl mb-5">Blogs</h2>
+
+        <div class="rounded-lg bg-[#F4F7FF] border-solid mb-10 p-10">
+          <h3 class="font-bold text-2xl text-black"> Question-1:What is the different ways to select an element in the DOM</h3>
+          <hr>
+          <p>
+            Using getElementById, Using getElementsByClassName,Using getElementsByTagName,Using querySelector, Using querySelectorAll.
+          </p>
+        </div>
+         
+
+        <div class="rounded-lg bg-[#F4F7FF] border-solid p-10 mb-5">
+          <h3 class="font-bold text-2xl text-black">Question-2:What is the difference between innerHTML,innerText,and textContent</h3>
+          <hr>
+          <p>
+            The innerHTML property recognizes HTML tags and renders the content according to the tags. innerText and textContent ignore HTML tags and treat them as part of the text. 
+          </p>
+        </div>
+
+        <div class="rounded-lg bg-[#F4F7FF] border-solid p-10 mb-5">
+          <h3 class="font-bold text-2xl text-black">Question-3:What is event delegation in the DOM</h3>
+          <hr>
+          <p>
+            In the DOM (Document Object Model), "event delegation" is a technique where you attach a single event listener to a parent element, allowing it to handle events triggered on its child elements, instead of adding separate listeners to each child element.
+          </p>
+        </div>
+
+        <div class="rounded-lg bg-[#F4F7FF] border-solid p-10 mb-5">
+          <h3 class="font-bold text-2xl text-black">Question-4: What is event bubbling in the DOM</h3>
+          <hr>
+          <p>
+            Event bubbling in the DOM is a process that propagates events from an element to its parent elements
+          </p>
+        </div>
+
     </main>
+
+    <script src="script/back-btn.js"></script>
 </body>
 </html>
